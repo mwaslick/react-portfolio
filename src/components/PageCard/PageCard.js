@@ -32,7 +32,12 @@ function PageCard(props) {
                 <Typography variant="h2">
                     {props.title}
                 </Typography>
-            
+
+                <div className="cardBody">
+                    {props.body}
+
+
+                </div>
             </Card>
             
     )
