@@ -1,12 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import Container from '@material-ui/core/Container';
+import PageCard from '../components/PageCard/PageCard';
+import Typography from '@material-ui/core/Typography';
 
-function Projects() {
+function Index() {
+
     return(
-        <div>
-            These are my projects
-        </div>
+        <Container>
+            <PageCard
+            title="My Projects"
 
+            />
+            
+        </Container>
     )
 }
 
-export default Projects;
+export default Index;

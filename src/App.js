@@ -10,7 +10,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Header/>
         <Navbar />
         <Route exact path="/" component={Index} />
         <Route exact path="/projects" component={Projects} />
