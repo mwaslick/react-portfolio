@@ -11,10 +11,9 @@ export default function Footer() {
         <Typography variant="body1">
              {'Copyright © '}
             <Link color="inherit" href="https://material-ui.com/">
-                Your Website
+                Maria Waslick
             </Link>{' '}
             {new Date().getFullYear()}
-            {'.'}
             </Typography>
         </Container>
       </footer>
