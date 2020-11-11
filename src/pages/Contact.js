@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-function Projects() {
+function Contact() {
     return(
         <div>
-            These are my projects
+            contact page
         </div>
 
     )
 }
 
-export default Projects;
+export default Contact;
