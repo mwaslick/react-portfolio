@@ -8,6 +8,10 @@
   pointer-events: none;
 }
 
+.projectImg {
+  max-width: 500px;
+}
+
 footer {
   margin-top: auto;
 }

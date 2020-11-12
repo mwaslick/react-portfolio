@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   root: {
     minWidth: 275,
     marginTop: 20,
+    marginBottom: 40
   },
   bullet: {
     display: 'inline-block',
@@ -34,7 +35,7 @@ function PageCard(props) {
                 </Typography>
 
                 <div className="cardBody">
-                    {props.body}
+                    {props.children}
 
 
 
