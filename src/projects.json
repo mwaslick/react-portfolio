@@ -1,0 +1,57 @@
+[
+    {"id": 1,
+    "name": "Next Step",
+    "img": "images/nextstep.png",
+    "description": "A job posting application to aid homeless populations; potential employees can browse jobs and contact managers if they are interested, while employers can create accounts and post new jobs.",
+    "site": "https://next-step-employment-app.herokuapp.com/",
+    "github": "https://github.com/mwaslick/project-2-job-posting"
+},
+
+{"id": 2,
+    "name": "Recipes by Nutrition",
+    "img": "images/recipes.png",
+    "description": "An application where a user enters a type of meal and is presented with a recipe, as well as the recipe's nutritional information.",
+    "site": "https://mercspring.github.io/recipes-by-nutrition/",
+    "github": "https://github.com/mercspring/recipes-by-nutrition"
+},
+
+{"id": 3,
+    "name": "Employee Directory",
+    "img": "images/edhome.png",
+    "description": "An application that provides a list of 200 employees, as well as the option to sort them by last name or search by any letter in their name.",
+    "site": "https://mw-employee-directory.herokuapp.com/",
+    "github": "https://github.com/mwaslick/employee-directory"
+},
+
+{"id": 4,
+    "name": "Eat-Da-Burger",
+    "img": "images/eatdaburger.png",
+    "description": "A virtual restaurant app where viewers can devour burgers at the click of a button, add new burgers through an input form, and delete burgers once they have been devoured.",
+    "site": "https://eat-da-burger-mw-app.herokuapp.com/",
+    "github": "https://github.com/mwaslick/burger-app"
+},
+
+{"id": 5,
+    "name": "Weather Dashboard",
+    "img": "images/weatherdashboard.png",
+    "description": "An application where a user can enter a city and view the current weather for the city, as well as the 5-day forecast for the future.",
+    "site": "https://mwaslick.github.io/weather-dashboard/",
+    "github": "https://github.com/mwaslick/weather-dashboard"
+},
+
+{"id": 6,
+    "name": "Work Day Scheduler",
+    "img": "images/workdayscheduler.png",
+    "description": "An application where a user can schedule events for the work hours of 9 to 5, view the current hour, and log them into their local storage to view them later.",
+    "site": "https://mwaslick.github.io/work-day-scheduler/",
+    "github": "https://github.com/mwaslick/work-day-scheduler"
+}
+
+
+
+
+
+
+
+
+]
