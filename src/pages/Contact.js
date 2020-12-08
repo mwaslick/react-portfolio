@@ -21,6 +21,26 @@ export default class Contact extends Component {
                 </List.Header>
               </List.Content>
             </List.Item>
+
+            <List.Item>
+              <Icon name='github' />
+              <List.Content>
+                <List.Header href='https://github.com/mwaslick' target='blank'>
+                    mwaslick
+                </List.Header>
+              </List.Content>
+            </List.Item>
+
+            <List.Item>
+              <Icon name='linkedin' />
+              <List.Content>
+                <List.Header href='https://www.linkedin.com/in/maria-waslick-8683aa142/' target='blank'>
+                    LinkedIn
+                </List.Header>
+              </List.Content>
+            </List.Item>
+
+
           </List>
         )
 

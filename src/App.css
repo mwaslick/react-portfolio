@@ -8,17 +8,15 @@
   pointer-events: none;
 }
 
-.projectImg {
-  max-width: 500px;
-}
-
 .pagecard {
   margin-top: 40px !important;
 }
 
-
-footer {
-  margin-top: auto;
+.footer {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

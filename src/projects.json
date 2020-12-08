@@ -1,21 +1,29 @@
 [
     {"id": 1,
-    "name": "Next Step",
-    "img": "/images/nextstep.png",
-    "description": "A job posting application to aid homeless populations; potential employees can browse jobs and contact managers if they are interested, while employers can create accounts and post new jobs.",
-    "site": "https://next-step-employment-app.herokuapp.com/",
-    "github": "https://github.com/mwaslick/project-2-job-posting"
+    "name": "Plant-It",
+    "img": "/images/plantit.png",
+    "description": "An application where users can plan their garden, obtain information about plants, and interact with fellow plant enthusiasts.",
+    "site": "https://plantit-site.herokuapp.com/",
+    "github": "https://github.com/mwaslick/Plantit-frontend"
 },
 
 {"id": 2,
+    "name": "Next Step",
+    "img": "/images/nextstep.png",
+    "description": "A job posting application for homeless populations; employees can browse jobs and contact managers, while employers can post new jobs.",
+    "site": "https://next-step-employment-app.herokuapp.com/",
+    "github": "https://github.com/mwaslick/Next-Step-Employment"
+},
+
+{"id": 3,
     "name": "Recipes by Nutrition",
     "img": "/images/recipes.png",
     "description": "An application where a user enters a type of meal and is presented with a recipe, as well as the recipe's nutritional information.",
     "site": "https://mercspring.github.io/recipes-by-nutrition/",
-    "github": "https://github.com/mercspring/recipes-by-nutrition"
+    "github": "https://github.com/mwaslick/Recipes-by-Nutrition"
 },
 
-{"id": 3,
+{"id": 4,
     "name": "Employee Directory",
     "img": "/images/edhome.png",
     "description": "An application that provides a list of 200 employees, as well as the option to sort them by last name or search by any letter in their name.",
@@ -23,35 +31,20 @@
     "github": "https://github.com/mwaslick/employee-directory"
 },
 
-{"id": 4,
-    "name": "Eat-Da-Burger",
-    "img": "/images/eatdaburger.png",
-    "description": "A virtual restaurant app where viewers can devour burgers at the click of a button, add new burgers through an input form, and delete burgers once they have been devoured.",
-    "site": "https://eat-da-burger-mw-app.herokuapp.com/",
-    "github": "https://github.com/mwaslick/burger-app"
-},
-
 {"id": 5,
-    "name": "Weather Dashboard",
-    "img": "/images/weatherdashboard.png",
-    "description": "An application where a user can enter a city and view the current weather for the city, as well as the 5-day forecast for the future.",
-    "site": "https://mwaslick.github.io/weather-dashboard/",
-    "github": "https://github.com/mwaslick/weather-dashboard"
+    "name": "Google Book Search",
+    "img": "/images/googlebooks.png",
+    "description": "An application where users can search books using the Google Books API, view additional information for books, and add books to a list of favorites.",
+    "site": "https://mw-googlebooksearch.herokuapp.com/",
+    "github": "https://github.com/mwaslick/google-book-search"
 },
 
 {"id": 6,
-    "name": "Work Day Scheduler",
-    "img": "/images/workdayscheduler.png",
-    "description": "An application where a user can schedule events for the work hours of 9 to 5, view the current hour, and log them into their local storage.",
-    "site": "https://mwaslick.github.io/work-day-scheduler/",
-    "github": "https://github.com/mwaslick/work-day-scheduler"
+    "name": "Eat-Da-Burger",
+    "img": "/images/eatdaburger.png",
+    "description": "A virtual restaurant app where viewers can devour burgers at the click of a button, add new burgers, and delete burgers they've eaten.",
+    "site": "https://eat-da-burger-mw-app.herokuapp.com/",
+    "github": "https://github.com/mwaslick/burger-app"
 }
-
-
-
-
-
-
-
 
 ]

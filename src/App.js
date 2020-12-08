@@ -5,8 +5,10 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { Container } from 'semantic-ui-react'
 import Navigation from './components/Navigation/Navigation'
+import Footer from './components/Footer/Footer'
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
       </Container>
+
+      <Footer />
 
     </Router>
   );
