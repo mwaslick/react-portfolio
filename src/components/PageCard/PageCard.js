@@ -1,48 +1,25 @@
-import React from "react";
-import Container from '@material-ui/core/Container';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-
-const useStyles = makeStyles({
-  root: {
-    minWidth: 275,
-    marginTop: 20,
-    marginBottom: 40
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-});
-  
+import React from 'react';
+import { Card, Divider} from 'semantic-ui-react';
 
 function PageCard(props) {
+    return (
+        <Card fluid className="pagecard">
+        <Card.Content>
+            <Card.Header>
+                {props.title}
+            </Card.Header>
+            <Divider />
 
-    const classes = useStyles();
-
-    return(
-            <Card className={classes.root} variant="outlined">
-
-                <Typography variant="h2">
-                    {props.title}
-                </Typography>
-
-                <div className="cardBody">
-                    {props.children}
+            <Card.Description>
+                {props.description}
+            </Card.Description>
+        </Card.Content>
+    </Card>
 
 
 
-                </div>
-            </Card>
-            
     )
+    
 }
-
-export default PageCard;
+  
+  export default PageCard;

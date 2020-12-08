@@ -1,24 +1,22 @@
-import Navbar from "./components/Navbar/Navbar"
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Container from '@material-ui/core/Container';
 import Index from "./pages/Index";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer/Footer"
+import { Container } from 'semantic-ui-react'
+import Navigation from './components/Navigation/Navigation'
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   return (
     <Router>
-        <Navbar />
-        <Container>
+      <Navigation />
+      <Container>
         <Route exact path="/" component={Index} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
-        </Container>
-
-        <Footer />
-
+      </Container>
 
     </Router>
   );
