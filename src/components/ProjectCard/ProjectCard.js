@@ -17,11 +17,11 @@ export default function ProjectCard(props) {
         </Card.Content>
 
         <Card.Content extra>
-            <Button href={props.site} target='blank'>
+            <Button secondary href={props.site} target='blank'>
                 Deployed Site
             </Button>
 
-            <Button href= {props.github} target='blank'>
+            <Button secondary href= {props.github} target='blank'>
                 GitHub Repository
             </Button>
     </Card.Content>

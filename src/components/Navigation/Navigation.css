@@ -1,0 +1,27 @@
+.topbar {
+    background-color: #1A1A1D;
+    padding-top: 30px !important;
+    }
+
+.title {
+    color: #EE4C7C;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.subtitle {
+    color: rgb(223, 205, 208) !important; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px !important;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navLink {
+    color: white !important; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
